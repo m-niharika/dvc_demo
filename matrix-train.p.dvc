@@ -1,8 +1,16 @@
+<<<<<<< Updated upstream
 md5: 838dab1d58cf0832fbfbac8066f258a1
 cmd: python code/featurization.py
 wdir: .
 deps:
 - md5: 8011357982197c412d71d54ee1755025
+=======
+md5: 0c90383736ee76090c3ad52363e49cdb
+cmd: python code/featurization.py
+wdir: .
+deps:
+- md5: 014cf2868f347efe181b4e07acc478e7
+>>>>>>> Stashed changes
   path: code/featurization.py
 - md5: 17f591c0c65a450fd53b34ba0ac6df7b
   path: code/conf.py
