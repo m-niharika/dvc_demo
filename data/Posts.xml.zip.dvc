@@ -1,7 +1,21 @@
+<<<<<<< HEAD
 md5: 16db8d80a257c325a8e53a94951cb210
 wdir: ..
 outs:
 - md5: fdb93740c3c2e62b4021e260d8ac2cbc
+=======
+<<<<<<< HEAD
+md5: 06427abad1ad4782d65c7096520f1ce7
+wdir: ..
+outs:
+- md5: cc8b02608f8f7906d5d533014e6aeb32
+=======
+md5: 5a0daa884aad5eca5dbfc664cb6beddb
+wdir: ..
+outs:
+- md5: 465efcb87d08b0c020cb12003c8bfa3e
+>>>>>>> 34f9e4750b333953b31bdb606a03d44c445dd9cd
+>>>>>>> a0222a0c2cba48c9a4ee95f40c2da88210590e8a
   path: data/Posts.xml.zip
   cache: true
   metric: false
