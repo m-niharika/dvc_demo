@@ -1,22 +1,22 @@
-md5: e7a35d96fa61ae4619b9807c02afbb5a
+md5: b7da3d8d41c86cff5984f2cfe1228db9
 cmd: python code/featurization.py
 wdir: .
 deps:
-- md5: ce7b0bd196adf75be259f531e95ec792
+- md5: 014cf2868f347efe181b4e07acc478e7
   path: code/featurization.py
 - md5: 17f591c0c65a450fd53b34ba0ac6df7b
   path: code/conf.py
-- md5: 5aa1021084519776c2926417666371a2
+- md5: 3e0e657ebcde2379cf9903a95dab8a4a
   path: data/Posts-train.tsv
-- md5: 8fb65d9018a4722261e3fa6128aba662
+- md5: e7625e74dca773acedc26d216163d8a5
   path: data/Posts-test.tsv
 outs:
-- md5: 7e277782fe3fe5547b0b5c6072c09f76
+- md5: 2dbd54fdac5bda10c028fc9cd01c4f56
   path: data/matrix-train.p
   cache: true
   metric: false
   persist: false
-- md5: e955d112f31638081cafc2637af16299
+- md5: 0855d5c79c7e4868661ad175d0357f28
   path: data/matrix-test.p
   cache: true
   metric: false

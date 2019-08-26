@@ -1,15 +1,15 @@
-md5: 1abfeb076a3c201d6bf9ffeb52d64403
+md5: b405bc53e4b3254c53b127518eb5ddd5
 cmd: python code/xml_to_tsv.py
 wdir: .
 deps:
-- md5: d1c18fa79901275d2fa3f44a210c5fe7
+- md5: 361142726e06b9e5f800c2150d0b1e23
   path: data/Posts.xml
 - md5: b491d6c7358c04f0fdad70302a23d2cb
   path: code/xml_to_tsv.py
 - md5: 17f591c0c65a450fd53b34ba0ac6df7b
   path: code/conf.py
 outs:
-- md5: c52bae9e3e6b313f754582dd7d13e4a4
+- md5: c2970b2655673b50651199c869277aed
   path: data/Posts.tsv
   cache: true
   metric: false

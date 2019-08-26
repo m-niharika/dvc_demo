@@ -1,20 +1,20 @@
-md5: cff3c043fcb0c58a2b0af2da88d5cdae
+md5: 5ad8ea92f2a742eafc9d2edf3a9f2839
 cmd: python code/split_train_test.py 0.33 20180319
 wdir: .
 deps:
-- md5: c52bae9e3e6b313f754582dd7d13e4a4
+- md5: c2970b2655673b50651199c869277aed
   path: data/Posts.tsv
 - md5: ae25b36c677067e81170f2db3cb2eca8
   path: code/split_train_test.py
 - md5: 17f591c0c65a450fd53b34ba0ac6df7b
   path: code/conf.py
 outs:
-- md5: 8fb65d9018a4722261e3fa6128aba662
+- md5: e7625e74dca773acedc26d216163d8a5
   path: data/Posts-test.tsv
   cache: true
   metric: false
   persist: false
-- md5: 5aa1021084519776c2926417666371a2
+- md5: 3e0e657ebcde2379cf9903a95dab8a4a
   path: data/Posts-train.tsv
   cache: true
   metric: false
