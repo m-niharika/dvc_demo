@@ -15,7 +15,10 @@ try: #python2
     sys.setdefaultencoding('utf-8')
 except: pass
 
+
 train_input = conf.train_tsv
+
+
 test_input = conf.test_tsv
 train_output = conf.train_matrix
 test_output = conf.test_matrix
